@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.header-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Distribute items evenly */
+}
+
+.header-item {
+    margin: 0 10px;
+}
+
+.header-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.header-item a:hover {
+    background-color: #555;
+}
